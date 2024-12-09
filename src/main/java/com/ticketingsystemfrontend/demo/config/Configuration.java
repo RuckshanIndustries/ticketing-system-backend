@@ -10,6 +10,7 @@ public class Configuration {
 
     public void setup() {
         Scanner scanner = new Scanner(System.in);
+        //Test
 
         this.totalTickets = validateInput(scanner, "Enter Total Tickets: ", 1, Integer.MAX_VALUE);
         this.ticketReleaseRate = validateInput(scanner, "Enter Ticket Release Rate (per second): ", 1, 100);
